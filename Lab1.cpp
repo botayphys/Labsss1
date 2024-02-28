@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include <utility>
-
+// aa
 
  int perebor(int *data, int size, int key) {
 	for (int i = 0; i < size; i++) {
@@ -25,7 +25,8 @@
  void C_strategy(int* data, int i, int* elem_check) {
 	 ++elem_check[i];
 	 if (i != 0) {
-		 if (elem_check[i - 1] < elem_check[i]) {
+		 if (elem_che
+         ck[i - 1] < elem_check[i]) {
 			 std::swap(data[i - 1], data[i]);
 			 std::swap(elem_check[i - 1], elem_check[i]);
 		 }
